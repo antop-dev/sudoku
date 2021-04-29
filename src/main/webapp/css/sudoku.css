@@ -1,0 +1,149 @@
+body,html {
+	font: 9pt tahoma, arial, helvetica;
+	margin: 10px;
+}
+
+#loading-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 65534;
+	background-color: white;
+}
+
+#loading {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	z-index: 65535;
+	height: auto;
+	text-align: center
+}
+
+.sudoku-btn-grid {
+	background-image: url(../images/sudoku.png) !important;
+}
+
+.sudoku-btn-rank {
+	background-image: url(../images/rank.png) !important;
+}
+
+.sudoku-btn-add {
+	background-image: url(../images/add.png) !important;
+}
+
+.sudoku-btn-reset {
+	background-image: url(../images/page_white_delete.png) !important;
+}
+
+.sudoku-btn-restart {
+	background-image: url(../images/restart.png) !important;
+}
+
+.sudoku-btn-solution {
+	background-image: url(../images/solution.png) !important;
+}
+
+.sudoku-btn-verif {
+	background-image: url(../images/verif.png) !important;
+}
+
+.sudoku-btn-hint {
+	background-image: url(../images/hint.png) !important;
+}
+
+.sudoku-btn-mouse-select {
+	background-image: url(../images/mouse_select.png) !important;
+}
+
+.sudoku-btn-help {
+	background-image: url(../images/help.png) !important;
+}
+
+.sudoku-btn-save {
+	background-image: url(../ext-3.3.1/ux/images/saving.gif) !important;
+}
+
+.x-window-dlg .sudoku-mb-icon {
+    background-image:url(../images/sudoku3.png);
+    width: 70px;
+    height: 70px;
+}
+
+.x-sudoku-table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.x-sudoku-block {
+	font-size: large;
+	text-align: center;
+	cursor: normal;
+	padding-top: 9px;
+	background-color: #ffffff;
+	border-width: 0px;
+	border-color: #88aad7;
+}
+
+.x-sudoku-block-original {
+	color: #6699b5;
+	font-weight: bold;
+}
+
+.x-sudoku-block-editable {
+	cursor: pointer;
+}
+
+.x-sudoku-block-left-dashed {
+	border-left-width: 1px;
+	border-left-style: dashed;
+}
+
+.x-sudoku-block-left-solid {
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+.x-sudoku-block-right-solid {
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.x-sudoku-block-top-dashed {
+	border-top-width: 1px;
+	border-top-style: dashed;
+}
+.x-sudoku-block-top-solid {
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+.x-sudoku-block-bottom-solid {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.x-sudoku-block-over-line {
+	background-color: #eff9f7;
+}
+
+.x-sudoku-block-over-color {
+	color: #ff0000;
+}
+
+
+.x-sudoku-check-block {
+	cursor: pointer;
+	font-size: x-small;
+	text-align: center;
+}
+
+.x-sudoku-check-block-over {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.help-image {
+	margin: 5px;
+}
